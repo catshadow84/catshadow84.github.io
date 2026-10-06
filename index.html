@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Amin Al-Hajj | ePortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">MA</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Mohammad Amin Al-Hajj</h1>
+            <h2>Computer Engineering Student @ LAU</h2>
+            <p class="tagline">Turning complex real-world problems into usable AI-driven solutions.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="https://github.com/catshadow84" target="_blank" class="btn secondary">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h3 class="section-title">About Me</h3>
+            <div class="about-content">
+                <p>I am a Computer Engineering student at the Lebanese American University (LAU) who turns real-world problems into AI-driven solutions. My work sits at the intersection of environmental data science and software engineering.</p>
+                <p>Whether I am building <strong>AquaVision</strong>, an AI pipeline that analyzes Sentinel-2 satellite imagery to monitor water quality across Lebanese water bodies, or <strong>Deadlock Diner</strong>, a visualizer that makes operating system algorithms accessible, my goal is the same: taking something complicated and making it usable.</p>
+                <p>My research on AquaVision has progressed to a manuscript currently under review at an international undergraduate research journal—a level of technical validation I am proud to have reached as an undergraduate. I plan to pursue a PhD, continuing to research how AI can address environmental and engineering challenges.</p>
+                <p>Alongside my technical work, I tutor peers in subjects ranging from Calculus to Discrete Structures, breaking down complex material into approachable, practical guides.</p>
+                
+                <div class="quick-facts">
+                    <span>📍 Beirut, Lebanon</span>
+                    <span>🎓 B.E. Computer Engineering, LAU</span>
+                    <span>🏆 Guinness World Record Holder</span>
+                    <span>📝 Manuscript under review</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title">Technical Projects</h3>
+            
+            <div class="project-card">
+                <h4>AquaVision — AI Water-Quality Monitoring Pipeline</h4>
+                <p class="project-tags">Python • Remote Sensing • Machine Learning • Research</p>
+                <p><strong>The Problem:</strong> Monitoring cyanobacteria blooms in freshwater bodies is traditionally slow and expensive.</p>
+                <p><strong>The Solution:</strong> An end-to-end Python pipeline (Pandas, GeoPandas, Rasterio, NumPy) that processes Sentinel-2 imagery and NASA CyFi data to detect blooms across five Lebanese freshwater sites.</p>
+                <p><strong>The Impact:</strong> Engineered a composite water-health scoring and biodiversity risk-assessment module. Co-authored a manuscript currently under review at an <em>International Journal of Undergraduate Research</em>.</p>
+            </div>
+
+            <div class="project-card">
+                <h4>Airwatch Lebanon — AI Emissions Monitoring Dashboard</h4>
+                <p class="project-tags">Flask • Google Earth Engine • Hackathon</p>
+                <p><strong>The Context:</strong> Built during the Kanz AI Hackathon (LAU/MHRSD) under a strict deadline.</p>
+                <p><strong>The Solution:</strong> A Flask dashboard using Sentinel-5P (TROPOMI) SO2/NO2 data via Google Earth Engine to monitor emissions from the Zouk Mikael and Jiyeh power plants.</p>
+                <p><strong>The Impact:</strong> Repositioned remote-sensing tech for an industry-facing audience. Contributed to a <strong>Guinness World Record</strong> for the Largest Online AI Hackathon.</p>
+            </div>
+
+            <div class="project-card">
+                <h4>Deadlock Diner — Banker's Algorithm Visualizer</h4>
+                <p class="project-tags">Operating Systems • Flask • Full-Stack</p>
+                <p><strong>The Problem:</strong> Operating Systems concepts like the Banker's Algorithm are notoriously difficult for students to visualize.</p>
+                <p><strong>The Solution:</strong> A full-stack Flask app with a Python safety-check engine, REST API, and an animated HTML/CSS/JavaScript front end.</p>
+                <p><strong>The Impact:</strong> Demonstrates core CS fundamentals made accessible. A clean, focused tool for interactive OS education.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h3 class="section-title">Experience & Tutoring</h3>
+            
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h4>Calculus Tutor</h4>
+                    <span>Jan 2026 – May 2026</span>
+                </div>
+                <p class="exp-org">Lebanese American University</p>
+                <p>Designed practice sets and reference materials for 25+ students; built concepts progressively toward exam-ready application.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h4>Engineering Peer Mentor</h4>
+                    <span>Sep 2025 – May 2026</span>
+                </div>
+                <p class="exp-org">Lebanese American University</p>
+                <p>Mentored first-year engineering students on course planning and academic strategy.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <h4>Freelance Multi-Subject Tutor</h4>
+                    <span>Ongoing</span>
+                </div>
+                <p>SAT Math and Grade 12 tutoring (physics, math, Lebanese history, sociology).</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="container">
+            <h3>Let's Connect</h3>
+            <p>I am always open to discussing research, projects, or tutoring opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:mohammadamin.alhajj@lau.edu">mohammadamin.alhajj@lau.edu</a>
+                <a href="https://github.com/catshadow84" target="_blank">github.com/catshadow84</a>
+            </div>
+            <p class="copyright">&copy; 2026 Mohammad Amin Al-Hajj. Built with GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
